@@ -1,0 +1,178 @@
+/* CSS DEL HEADER Y SUS ELEMENTOS  */
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10rem;
+    margin-right:15rem;
+    margin-top:1rem;
+}
+
+.header-logo{
+    margin-top: 1rem;
+}
+
+.header-menu-nav-bar{
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li a{
+    padding-right: 1rem;
+    list-style:none;
+    font: 500 16px/40px "Poppins",sans-serif;
+    text-decoration: none;
+    color: #8f969d;
+    padding: 0 17px;
+    font-weight: 550;
+    width: 100%;
+}
+
+li{
+    list-style:none;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+a{
+    text-transform: uppercase !important
+}
+
+
+.main-var{
+    display: flex;
+    justify-content: space-between;
+    padding-top:2rem;
+}
+
+.btns-container{
+    display: flex;
+    margin-top: -3.6rem;
+    margin-left:-2rem;
+}
+
+.cart-btn{
+    color: #fff;
+    text-transform: uppercase;
+    font: 500 16px/20px "Poppins",sans-serif;
+    margin-left:1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    padding-right: .5rem;
+    background: #f62;
+    fill: white;
+}
+
+.svg-cart{
+    width: 25px;
+    height: 25px;
+    color: white;
+    padding-left:.2rem;
+    margin-top: .1rem;
+    margin-right: .65rem;
+}
+
+.btn-buy{
+    background: #f62;
+    text-transform: uppercase;
+    font: 500 16px/40px "Poppins",sans-serif;
+    border-radius: 30px;
+    padding-left: 2.5rem;
+    padding-right:2.5rem;
+    padding-top:.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    border: none;
+    margin-left:.5rem;
+    margin-top:5rem;
+    width: 100%;
+}
+
+.btn-buy-span{
+    color:white;
+    text-transform: uppercase;
+    font: 600 16px/40px "Poppins",sans-serif;
+}
+
+#pages{
+    display: flex;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    margin-top: 1rem;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    color: #8f969d;
+}
+
+
+/* LA PARTE DEL MAIN */
+
+
+.title-front-page h1{
+    text-align: center;
+    font: 600 79px/1 "Poppins",sans-serif;
+    color: #374048;
+}
+
+
+.subtitle-front-page p{
+    text-align: center;
+    color: #8a9095;
+    width: 100%;
+    max-width: 45%;
+    margin: 0 auto 40px;
+    font: 300 27px/41px "Poppins",sans-serif;
+    letter-spacing: -.2px;
+}
+
+.subtitle-front-page-title{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+    
+
+
+.btn-paypal {
+    text-align: center;
+}
+
+
+.btn-paypal-span{
+    background: #0084ff;
+    color: #fff;
+    border: none;
+    padding: 1.5rem;
+    padding-left: 5.5rem;
+    padding-right:5.5rem;
+    border-radius: 60px;
+    font: 500 27px/72px "Poppins",sans-serif;
+    margin-bottom: 77px;
+}
+
+
+.whatch-img-container{
+    text-align: center;
+    margin-top: 5rem;
+}
+
